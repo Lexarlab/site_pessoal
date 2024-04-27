@@ -1,0 +1,65 @@
+.introducao{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.introducao h1{
+    font-size: 3.2rem;
+    line-height: 1.25;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.introducao h1::before{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 90px;
+    background: url("../img/Rectangle1.png") no-repeat center;
+    position: absolute;
+    top: -2.2px;
+    left: -52px;
+}
+
+.introducao h1::after{
+    content: "";
+    display: block;
+    width: 140px;
+    height: 90px;
+    background: url("../img/Rectangle2.png") no-repeat center;
+    position: absolute;
+    top: 145px;
+    left: 275px;
+}
+.introducao h2{
+    margin-bottom: 10px;
+}
+.introducao p{
+    text-align: justify;
+    color: #525252;
+}
+
+@media(max-width:1000px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width:800px){
+    .introducao{
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    .introducao h1{
+        font-size: 2rem;
+    }
+    .introducao h1::before{
+        width: 30px;
+        height: 10px;
+        left: 0px;
+    }
+}
