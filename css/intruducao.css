@@ -48,8 +48,6 @@
     .introducao h1{
         font-size: 3rem;
     }
-}
-@media(max-width:800px){
     .introducao{
         grid-template-columns: 1fr 1fr;
         gap: 40px;
@@ -61,5 +59,29 @@
         width: 30px;
         height: 10px;
         left: 0px;
+    }
+    .introducao h1::after{
+        width: 90px;
+        height: 10px;
+        left: 171px;
+        top: 115px;
+    }
+}
+
+@media(max-width:603px){
+    .introducao h1::after{
+        width: 90px;
+        height: 10px;
+        left: 1px;
+        top: 152px;
+    }
+}
+
+@media(max-width: 400px){
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+    .introducao img {
+        display: none;
     }
 }
