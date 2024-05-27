@@ -1,0 +1,18 @@
+.projetos{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px
+}
+
+.projetos .subtitulo {
+    color: #B5B5B5
+}
+
+.projetos recado{
+    font-size: 1rem;
+    line-heigth: 1.33;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}

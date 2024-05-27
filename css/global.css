@@ -17,3 +17,9 @@ h1, h2, h3, p{
     max-width: 100%;
     display: block;
   }
+
+  .subtitulo {
+    font-size: 6rem;
+    line-heigth: 1;
+    text-transform: uppercase;
+  }
