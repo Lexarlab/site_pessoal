@@ -9,10 +9,11 @@
 }
 
 .introducao h1{
-    font-size: 3.2rem;
-    line-height: 1.25;
+    font-size: 4.5rem;
+    line-height: 1.135;
     margin-bottom: 30px;
     position: relative;
+    top: -40px;
 }
 
 .introducao h1::before{
@@ -22,26 +23,28 @@
     height: 90px;
     background: url("../img/Rectangle1.png") no-repeat center;
     position: absolute;
-    top: -2.2px;
-    left: -52px;
+    top: 8.5px;
+    left: -53px;
 }
 
 .introducao h1::after{
     content: "";
     display: block;
-    width: 140px;
+    width: 187px;
     height: 90px;
     background: url("../img/Rectangle2.png") no-repeat center;
     position: absolute;
-    top: 145px;
-    left: 275px;
+    top: 181px;
+    left: 362.8px;
 }
 .introducao h2{
     margin-bottom: 10px;
 }
 .introducao p{
+    font-weight: 400;
     text-align: justify;
     color: #525252;
+    line-height: 1.8;
 }
 
 @media(max-width:1000px){

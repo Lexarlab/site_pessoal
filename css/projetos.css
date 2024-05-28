@@ -10,9 +10,76 @@
     color: #B5B5B5
 }
 
-.projetos recado{
-    font-size: 1rem;
-    line-heigth: 1.33;
+.projetos .subtitulo-txt{
+    font-size: 1.150rem;
     padding-top: 7px;
     padding-bottom: 10px;
 }
+.projeto-card{
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem; 
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    transition: background-color 0.3s ease;
+}
+.card:hover {
+    background-color: #f3f4f6; 
+}
+.card img {
+    width: 100%;
+    height: 24rem; 
+    border-top-left-radius: 0.5rem; 
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+}
+.projeto-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    line-height: 1.5;
+    text-decoration: none
+}
+
+.projeto-titulo {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827;
+    text-decoration: none;
+}
+.projeto-texto{
+    margin-bottom: 0.75rem; 
+    font-weight: normal;
+    text-decoration: none;
+    color: #4b5563; 
+    
+}
+.tecnologias{
+    margin-bottom: 0.75rem;
+    font-weight:bolder; 
+    color: #4b5563;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        max-width: 36rem;
+    }
+
+    .card img {
+        height: auto;
+        width: 20rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+
